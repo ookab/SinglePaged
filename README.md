@@ -1,11 +1,9 @@
 Spletna stran projekta OOKAB
 ============================
 
-_Osveščanje O Kožnih Boleznih_
+**Osveščanje O Kožnih (Alergenih in) Boleznih**
 
-## Opis
-
-Gre se za ŠIPK projekt, kjer študenti iz različnih fakultet poskušamo izdelati izobraževalno gradivo za osveščanje mladine glede problematike kožnih bolezni, s poudarkom na psoriazo.
+je ŠIPK projekt, kjer študenti iz različnih fakultet poskušamo izdelati izobraževalno gradivo za osveščanje mladine glede problematike kožnih bolezni, s poudarkom na psoriazo.
 
 V duhu odprtega delovanja je celotna spletna stran, vključno z njeno izvorno kodo, na voljo javnosti.
 
