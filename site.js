@@ -1,7 +1,34 @@
+'use strict';
 
+/*  An explanation for the following code block:
+    JQuery provides an animate() function, which is able to provide a smooth
+        transition between specified CSS attributes
+        http://api.jquery.com/animate/
+
+    JQuery UI is an extension library which provides implementations for
+        animation effects, easing, etc.
+        You can do animations without the JQuery UI, but in this case you have
+        to provide your own implementation of easing functions
+
+        https://stackoverflow.com/questions/5207301/jquery-easing-functions-without-using-a-plugin
+
+    You can also just import the easing library, or a specific function
+
+        http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js
+
+        A good visualization of these is provided on
+
+        http://easings.net/
+*/
 $.extend($.easing,
 {
-    def: 'easeOutQuad',
+    /* excerpt from http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js */
+
+    def: 'easeOutExpo', /* default if the easing function is not specified */
+
+    easeOutExpo: function (x, t, b, c, d) {
+        return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+    },
     easeInOutExpo: function (x, t, b, c, d) {
         if (t==0) return b;
         if (t==d) return b+c;
@@ -10,14 +37,23 @@ $.extend($.easing,
     }
 });
 
-(function( $ ) {
+(function() {
 
     var settings;
     var disableScrollFn = false;
     var navItems;
     var navs = {}, sections = {};
 
+    // navigation bar scrolling functions
+    /* .fn refers to the JQuery function prototype
+            https://stackoverflow.com/questions/4083351/what-does-jquery-fn-mean
+        This also means that all JQuery objects will inherit this function, and
+        at the same time, the "this" inside the function will refer to the object
+        the JQuery search returns.
+     */
     $.fn.navScroller = function(options) {
+        console.log(this);
+
         settings = $.extend({
             scrollToOffset: 170,
             scrollSpeed: 800,
@@ -25,7 +61,7 @@ $.extend($.easing,
         }, options );
         navItems = this;
 
-        //attatch click listeners
+        // attach click listeners
     	navItems.on('click', function(event){
     		event.preventDefault();
             var navID = $(this).attr("href").substring(1);
@@ -33,13 +69,13 @@ $.extend($.easing,
             activateNav(navID);
             populateDestinations(); //recalculate these!
         	$('html,body').animate({scrollTop: sections[navID] - settings.scrollToOffset},
-                settings.scrollSpeed, "easeInOutExpo", function(){
+                settings.scrollSpeed, "easeOutExpo", function(){
                     disableScrollFn = false;
                 }
             );
     	});
 
-        //populate lookup of clicable elements and destination sections
+        // populate lookup of clickable elements and destination sections
         populateDestinations(); //should also be run on browser resize, btw
 
         // setup scroll listener
@@ -47,7 +83,7 @@ $.extend($.easing,
             if (disableScrollFn) { return; }
             var page_height = $(window).height();
             var pos = $(this).scrollTop();
-            for (i in sections) {
+            for (var i in sections) {
                 if ((pos + settings.scrollToOffset >= sections[i]) && sections[i] < pos + page_height){
                     activateNav(i);
                 }
@@ -56,6 +92,7 @@ $.extend($.easing,
     };
 
     function populateDestinations() {
+        console.log('recalculated');
         navItems.each(function(){
             var scrollID = $(this).attr('href').substring(1);
             navs[scrollID] = (settings.activateParentNode)? this.parentNode : this;
@@ -64,29 +101,29 @@ $.extend($.easing,
     }
 
     function activateNav(navID) {
-        for (nav in navs) { $(navs[nav]).removeClass('active'); }
+        for (var nav in navs) { $(navs[nav]).removeClass('active'); }
         $(navs[navID]).addClass('active');
     }
-})( jQuery );
+})();
 
 
 $(document).ready(function (){
 
     $('nav li a').navScroller();
 
-    //section divider icon click gently scrolls to reveal the section
+    // section divider icon click gently scrolls to reveal the section
 	$(".sectiondivider").on('click', function(event) {
-    	$('html,body').animate({scrollTop: $(event.target.parentNode).offset().top - 50}, 400, "linear");
+    	$('html,body').animate({scrollTop: $(event.target.parentNode).offset().top - 50}, 400, "easeOutExpo");
 	});
 
-    //links going to other sections nicely scroll
+    // links going to other sections nicely scroll
 	$(".container a").each(function(){
         if ($(this).attr("href").charAt(0) == '#'){
             $(this).on('click', function(event) {
         		event.preventDefault();
                 var target = $(event.target).closest("a");
                 var targetHight =  $(target.attr("href")).offset().top
-            	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
+            	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeOutExpo");
             });
         }
 	});

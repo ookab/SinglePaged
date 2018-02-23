@@ -3,7 +3,7 @@
 je vzpostavitev lokalnega delovnega okolja za vzdrževalca spletne strani. Dano okolje je potrebno le za začetno vzpostavitev ter lokalno tesitranje.
 Ostali sodelujoči bodo predvidoma urejali spletno stran preko CMS-ja, kot je recimo Netlify.
 
-Tu je sicer fokus na Linux okolju, vendar se ga da zelo enostavno vzpostaviti na Windows-ih.
+Tu je sicer fokus na Linux okolju, vendar se ga da zelo enostavno vzpostaviti tudi na Windows-ih.
 
 ### Vzpostavitev Ruby ter Jekyll
 
@@ -23,7 +23,7 @@ export GEM_HOME=$HOME/.gem
 ter ji daj pravice za izvajanje
 
 ```
-chmod +x ~/.prifile
+chmod +x ~/.profile
 # ce se ti ne da narediti logouta, sourcaj datoteko
 . ~/.profile
 ```
@@ -54,7 +54,7 @@ V korenu projekta je še
 * `site.js` - javascript naslovne strani
 * `combo.css` - Liquid predloga za skupno css datoteko spletne strani
 
-## Pravila dobrega vedenja
+## Pravila lepega vedenja
 
 Ker se tu gre za git okolje, do katerega imajo vsi sodelujoči poln dostop, je pomembno, da se držimo skupnega dogovora.
 Zgodovina na gitu sicer omogoča, da se v primeru izpada spletno stran povrne v prejšnje stanje, vendar zavoljo živcev je bolje da do teh pride karseda redko.
