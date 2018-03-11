@@ -69,7 +69,7 @@ $.extend($.easing,
             activateNav(navID);
             populateDestinations(); //recalculate these!
         	$('html,body').animate({scrollTop: sections[navID] - settings.scrollToOffset},
-                settings.scrollSpeed, "easeOutExpo", function(){
+                settings.scrollSpeed, "easeInOutExpo", function(){
                     disableScrollFn = false;
                 }
             );
@@ -113,7 +113,7 @@ $(document).ready(function (){
 
     // section divider icon click gently scrolls to reveal the section
 	$(".sectiondivider").on('click', function(event) {
-    	$('html,body').animate({scrollTop: $(event.target.parentNode).offset().top - 50}, 400, "easeOutExpo");
+    	$('html,body').animate({scrollTop: $(event.target.parentNode).offset().top - 50}, 400, "easeInOutExpo");
 	});
 
     // links going to other sections nicely scroll
@@ -123,7 +123,7 @@ $(document).ready(function (){
         		event.preventDefault();
                 var target = $(event.target).closest("a");
                 var targetHight =  $(target.attr("href")).offset().top
-            	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeOutExpo");
+            	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
             });
         }
 	});

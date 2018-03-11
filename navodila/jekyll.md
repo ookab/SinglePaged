@@ -15,16 +15,13 @@ Beri naslednje:
 Ustvari oz. posodobi ~/.profile datoteko s sledečo vsebino
 
 ```
-#!/bin/bash
 export PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin"
 export GEM_HOME=$HOME/.gem
 ```
 
-ter ji daj pravice za izvajanje
+Če se ti ne da narediti logouta, sourcaj datoteko
 
 ```
-chmod +x ~/.profile
-# ce se ti ne da narediti logouta, sourcaj datoteko
 . ~/.profile
 ```
 

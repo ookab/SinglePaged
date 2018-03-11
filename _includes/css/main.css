@@ -67,6 +67,10 @@ hr {
 .container { word-wrap: break-word; }
 .center { text-align: center; }
 .left, .container .left { text-align: left; }
+.justify, .container .justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 .container h1, .container h2, .container h3, .container h4 {
   margin-bottom: 20px;
@@ -176,7 +180,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .section:first-of-type {
-    padding-top: 140px;
+    padding-top: 100px;
 }
 
 

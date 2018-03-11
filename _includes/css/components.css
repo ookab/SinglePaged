@@ -1,0 +1,14 @@
+
+/* Logo
+   Should do something more responsive, this definition probably doesn't look
+   good on mobile.
+*/
+#logo {  width: 35%;  height: auto; }
+
+.image-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}

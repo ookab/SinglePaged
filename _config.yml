@@ -20,6 +20,7 @@ description: "Spletna stran projekta OOKAB - osveščanje o kožnih alergenih in
 source_link: "https://ookab.github.io/web/"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
+logo:        "img/logo.svg"
 google_analytics_key: UA-114397295-1
 
 
