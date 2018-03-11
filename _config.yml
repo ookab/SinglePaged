@@ -18,9 +18,9 @@ title:       "Osveščanje o kožnih alergenih in boleznih"
 keywords:    "OOKAB, kožne bolezni, psoriaza"
 description: "Spletna stran projekta OOKAB - osveščanje o kožnih alergenih in boleznih"
 source_link: "https://ookab.github.io/web/"
-favicon:     "img/favicon.ico"
-touch_icon:  "img/apple-touch-icon.png"
-logo:        "img/logo.svg"
+favicon:     "assets/img/favicon.ico"
+touch_icon:  "assets/img/apple-touch-icon.png"
+logo:        "assets/img/logo.svg"
 google_analytics_key: UA-114397295-1
 
 
