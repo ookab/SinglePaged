@@ -53,15 +53,21 @@ pre {
 /* ----- base elements ----- */
 
 img {
-  max-width:100%!important;
+  max-width:100%;
   height:auto;
   vertical-align:middle;
 }
 
 hr {
-  margin:60px auto;
-  width:50%;
-  border-color: {{ site.colors.black }};
+  background: rgba(0, 0, 0, 0.0);
+  height: 2px;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .container { word-wrap: break-word; }
