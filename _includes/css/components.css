@@ -56,3 +56,33 @@
   transform: scale(1.25, 1.25);
 }
 
+/* ---- person info section ---- */
+.oseba-section {
+  display: inline-block;
+  width: 100%;
+  max-width: 250px;
+  vertical-align: top;
+}
+
+.oseba-section .oseba-ime {
+  text-align: center;
+  font-size: 2.5rem; line-height: 1.0;  letter-spacing: -.05rem;
+}
+
+.oseba-section img {
+  box-sizing: border-box;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+.oseba-section p {
+  box-sizing: border-box;
+  width: 100 %;
+  margin-top: 10px !important;
+  text-align: center;
+}

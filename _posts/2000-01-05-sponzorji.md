@@ -15,6 +15,7 @@ _Projektno delo z negospodarskim in neprofitnim sektorjem – Študentski inovat
 {: .center}
 
 Del sredstev razpisa je financirala Evropska unija iz Evropskega socialnega sklada.
+{: .center}
 
 ![](assets/img/sponzorji/mizs.jpg 'Ministrstvo za izobraževanje, znanost in šport Republike Slovenije'){: .image-main}
 ![](assets/img/sponzorji/srip.png 'Javni štipendijski, razvojni, invalidski in preživninski sklad Republike Slovenije'){: .image-main}
@@ -23,6 +24,7 @@ Del sredstev razpisa je financirala Evropska unija iz Evropskega socialnega skla
 ---
 
 Pri izdelavi gradiva, organizaciji delavnic ter promociji projekta so pomagali
+{: .center}
 
 ##### Društvo psoriatikov Slovenije
 {: .center}
