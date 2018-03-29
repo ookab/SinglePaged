@@ -14,10 +14,10 @@ markdown: kramdown
 encoding: utf-8
 
 ### content configuration ###
-title:       "Osveščanje o kožnih alergenih in boleznih"
+title:       "Osveščanje o kožnih boleznih"
 keywords:    "OOKAB, kožne bolezni, psoriaza"
 description: "Spletna stran projekta OOKAB - osveščanje o kožnih alergenih in boleznih"
-source_link: "https://ookab.github.io/web/"
+source_link: "https://github.com/ookab/web"
 favicon:     "assets/img/favicon.ico"
 touch_icon:  "assets/img/apple-touch-icon.png"
 logo:        "assets/img/logo.svg"
