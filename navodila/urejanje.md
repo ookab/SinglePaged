@@ -40,6 +40,7 @@ In da veste - z Markdown-om so oblikovana vsa besedila na spletni strani, vklju�
 ### Orodja za urejanje
 
 **Github**
+
 Github ima že svoj spletni urejevalnik datotek. Navodila zanj so na https://help.github.com/articles/editing-files-in-your-repository/ , vendar bodi pozoren, da:
 
 * v koraku 7. mora biti _branch_ nastavljen na **gh-pages**
@@ -50,6 +51,7 @@ S tem se izogneš dodatni režiji pri objavljanju datotek na strežnik. Tak nač
 Urejevalnik ima tudi možnost za predogled, vendar vedi da ta ne prikaže v stilu spletne strani. Predogled datoteke bo zato izgledal polomljeno, vendar nič zato - ko dejansko narediš commit, se bo uporabilo pravo oblikovanje spletne strani.
 
 **CMS**
+
 Content Management System (CMS) so orodja, ki skrijejo tehnično ozadje glede organizacije datotek, objave na strežnik ipd.
 
 Uporabnikom se v tem primeru ni treba ukvarjati s podrobnostmi git-a, vendar pa je na plečih vzdrževalca spletne strani, da on to vzpostavi.

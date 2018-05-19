@@ -51,12 +51,21 @@ Postopek za pridobitev ter povezavo z Github Pages stranjo je sledeč:
    ```
 
 4. Ko dobiš potrditev o spremembi zapisa (od hostmaster@arnes.si), lahko skonfiguriramo še Github Pages.
-   Če še nimate vzpostavljenega projekta na Github-u, je enostaven uvod
+   Če še nimate vzpostavljenega projekta na Github-u, lahko
 
-      * https://guides.github.com/features/pages/
-      * https://www.youtube.com/watch?v=BA_c3bGQXlQ
+      * Začnete iz projekta [OOKAB](https://github.com/ookab/web/).
+        Navodila za to: https://guides.github.com/activities/forking/
 
-   Ko imaš vzpostavljen projekt, lahko na pregledni strani greš pod **Settings**, **Github Pages** sekcija ter pod **Custom domain** dodaš `www.[tvoja domena].si`.
+        Če boste izbrali to možnost, potem boste morali urediti še [_config.yml](/_config.yml).
+
+        Oglejte si [navodila prvotne predloge](/TEMPLATE-README.md#setup-inside-existing-project) za več podrobnosti.
+
+      * Začnete na sveže - enostavna navodila za to so
+
+        * https://guides.github.com/features/pages/
+        * https://www.youtube.com/watch?v=BA_c3bGQXlQ
+
+   Ko imaš vzpostavljen projekt, lahko na pregledni strani projekta greš pod **Settings**, **Github Pages** sekcija ter pod **Custom domain** dodaš `www.[tvoja domena].si`.
 
 V tej točki bi morala spletna stran biti dostopna na `www.[tvoja domena].si`
 

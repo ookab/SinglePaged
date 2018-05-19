@@ -46,7 +46,7 @@ Zato se ni potrebno ustrašiti - če veste kaj je računalnik (glede na to, da t
 Priporočam, da si ta ogleda sledeča navodila v podanem vrstnem redu:
 
 1. [domena.md](/navodila/domena.md)
-2. [lokalno-okolje](/navodila/lokalno-okolje.md)
+2. [lokalno-okolje.md](/navodila/lokalno-okolje.md)
 3. [urejanje.md](/navodila/urejanje.md)
 
 ### Za preostale sodelujoče

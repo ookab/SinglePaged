@@ -1,6 +1,6 @@
 ## Namen dokumenta
 
-je vzpostavitev lokalnega delovnega okolja za vzdrževalca obstoječe spletne strani.
+Je vzpostavitev lokalnega delovnega okolja za vzdrževalca obstoječe spletne strani.
 To okolje omogoča razvijalcu, da lahko na svojem lastnem računalniku gosti spletno stran, kar mu omogoča hitrejšo povratno informacijo tekom dela.
 
 Ker je postopek bolj tehničen, si naj to okolje vzpostavi le vzdrževalec spletne strani.
@@ -73,6 +73,8 @@ gem install jekyll
 Če je šlo vse prav, potem bi ti moral ukaz `jekyll -v` vrniti `jekyll 3.x.x`
 
 ## Prenos kode spletne strani
+
+Prenesi si kodo projekta (če ga še nimate, glejte [domena.md](/navodila/domena.md) , točka 4.)
 
 ```
 git clone https://github.com/[github uporabniško ime]/[ime projekta].git
