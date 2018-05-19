@@ -22,6 +22,7 @@ Vso gradivo, objavljeno na repozitoriju, vključno z izvorno kodo spletne strani
 Kljub permisivni licenci pa moramo biti odgovorni pri objavi in obdelavi same vsebine, ki je objavljena na spletni strani - ta se naj uporablja izključno za izobraževalne namene.
 
 Kakršnakoli obdelava, citiranje, ali spreminjanje vsebine za škodljive ali tržne namene ni dovoljena in je na slovenskem področju pravno urejena z
+
 * [Zakonom o avtorskih in sorodnih pravicah (ZASP)](http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO403)
 * [Zakonom o varstvu osebnih podatkov (ZVOP-1)](http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3906)
 
@@ -34,3 +35,20 @@ Spletna stran je zasnovana izključno statično, brez potrebnih aktivnih kompone
 Izgled spletne strani temelji na [SinglePaged temi](https://github.com/t413/SinglePaged).
 
 Readme same teme je dostopen na korenu repozitorija pod [TEMPLATE-README.md](TEMPLATE-README.md).
+
+## Navodila za vzdrževanje in vzpostavitev lastne spletne strani
+
+Da prvo izpostavim: ta dokumentacija je v prvi vrsti namenjena osebju in študentom **ne**računalniških fakultet in je v tem duhu tudi napisana.
+Zato se ni potrebno ustrašiti - če veste kaj je računalnik (glede na to, da to berete, ste na dobri poti :thumbsup:), potem bi morali do konca teh navodil priti do delujoče _in_ javno objavljene spletne strani.
+
+### Za vzdrževalca/razvijalca spletne strani
+
+Priporočam, da si ta ogleda sledeča navodila v podanem vrstnem redu:
+
+1. [domena.md](/navodila/domena.md)
+2. [lokalno-okolje](/navodila/lokalno-okolje.md)
+3. [urejanje.md](/navodila/urejanje.md)
+
+### Za preostale sodelujoče
+
+Za vas bo dovolj, da si ogledate [urejanje.md](/navodila/urejanje.md)
