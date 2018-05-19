@@ -101,7 +101,7 @@ Configuration file: /home/nekaj/web/_config.yml
   Server running... press ctrl-c to stop.
 ```
 
-Kot je razvidno iz `Server address:`, je zdaj na tem računalniku spletna stran zdaj na voljo na http://0.0.0.0:4000
+Kot je razvidno iz `Server address:`, je zdaj na tem računalniku spletna stran na voljo na naslovu http://0.0.0.0:4000
 
 ## Urejanje spletne strani
 

@@ -58,7 +58,7 @@ Postopek za pridobitev ter povezavo z Github Pages stranjo je sledeč:
 
         Če boste izbrali to možnost, potem boste morali urediti še [_config.yml](/_config.yml).
 
-        Oglejte si [navodila prvotne predloge](/TEMPLATE-README.md#setup-inside-existing-project) za več podrobnosti.
+        Oglejte si [navodila prvotne predloge](/TEMPLATE-README.md#usage) za več podrobnosti.
 
       * Začnete na sveže - enostavna navodila za to so
 

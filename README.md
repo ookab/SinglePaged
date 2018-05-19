@@ -15,7 +15,7 @@ Prav tako bi morali v raziskovalni sferi dati večji poudarek na dostopnost info
 
 Z objavo našega gradiva želimo prihodnjim projektom olajšati pot do svoje lastne, trajnostne, spletne strani.
 
-## Licenca
+## Licenca in pravo
 
 Vso gradivo, objavljeno na repozitoriju, vključno z izvorno kodo spletne strani, je pod [MIT licenco](https://opensource.org/licenses/MIT).
 
@@ -39,6 +39,7 @@ Readme same teme je dostopen na korenu repozitorija pod [TEMPLATE-README.md](TEM
 ## Navodila za vzdrževanje in vzpostavitev lastne spletne strani
 
 Da prvo izpostavim: ta dokumentacija je v prvi vrsti namenjena osebju in študentom **ne**računalniških fakultet in je v tem duhu tudi napisana.
+
 Zato se ni potrebno ustrašiti - če veste kaj je računalnik (glede na to, da to berete, ste na dobri poti :thumbsup:), potem bi morali do konca teh navodil priti do delujoče _in_ javno objavljene spletne strani.
 
 ### Za vzdrževalca/razvijalca spletne strani
