@@ -28,13 +28,21 @@ Pri izdelavi gradiva, organizaciji delavnic ter promociji projekta so pomagali
 
 ##### Društvo psoriatikov Slovenije
 {: .center}
+<a href="http://www.drustvo-psoriatikov.si/" target="_blank">
 ![](assets/img/sponzorji/dps.png 'Društvo psoriatikov Slovenije'){: .image-main}
+</a>
+{: .pop-up-img}
 
 ##### Fakulteta za zdravstvene vede Novo mesto
 {: .center}
+<a href="https://fzv.uni-nm.si/" target="_blank">
 ![](assets/img/sponzorji/fzv-nm.png 'Fakulteta za zdravstvene vede Novo mesto'){: .image-main}
+</a>
+{: .pop-up-img}
 
 ##### Društvo prijateljev mladine Mojca Novo mesto
 {: .center}
+<a href="http://www.drustvopm-mojca.si/" target="_blank">
 ![](assets/img/sponzorji/dpm-mojca.png ' Društvo prijateljev mladine Mojca Novo mesto'){: .image-main}
-
+</a>
+{: .pop-up-img}

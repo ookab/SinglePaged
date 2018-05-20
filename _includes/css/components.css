@@ -30,6 +30,10 @@
   background-color: rgba(255, 255, 255, 1);
 }
 
+.image-main-big {
+  max-width:600px;
+}
+
 /* ---- website icon links ---- */
 .site-links {
   text-align: center;
@@ -43,6 +47,7 @@
 /* animation inspired by
  * http://tobiasahlin.com/blog/how-to-animate-box-shadow/
  */
+/* icon link */
 .pop-up {
   position: relative;
   display: inline-block;
@@ -54,6 +59,19 @@
 .pop-up:hover {
   -webkit-transform: scale(1.25, 1.25);
   transform: scale(1.25, 1.25);
+}
+
+/* image link */
+.pop-up-img {
+  position: relative;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.pop-up-img:hover {
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 /* ---- person info section ---- */

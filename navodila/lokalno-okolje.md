@@ -85,7 +85,7 @@ Znotraj terminala se v mapo projekta premakneš s `cd [ime projekta]` - to je na
 
 V korenu projekta izvedi
 
-`jekyll serve`
+`jekyll serve --livereload`
 
 Če so vsi prejšnji koraki šli prav, bi moralo izpisati nekaj v tem smislu
 ```
@@ -97,6 +97,7 @@ Configuration file: /home/nekaj/web/_config.yml
       Generating...
                     done in 0.169 seconds.
  Auto-regeneration: enabled for '/home/nekaj/web'
+LiveReload address: http://0.0.0.0:35729
     Server address: http://0.0.0.0:4000
   Server running... press ctrl-c to stop.
 ```

@@ -44,7 +44,7 @@ Zato se ni potrebno ustrašiti - če veste kaj je računalnik (glede na to, da t
 
 ### Za vzdrževalca/razvijalca spletne strani
 
-Priporočam, da si ta ogleda sledeča navodila v podanem vrstnem redu:
+Priporočam, da si ogledaš sledeča navodila v podanem vrstnem redu:
 
 1. [domena.md](/navodila/domena.md)
 2. [lokalno-okolje.md](/navodila/lokalno-okolje.md)
